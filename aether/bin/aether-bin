@@ -1,11 +1,3 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "aether"
-require '.lib/aether'
-
-
-puts "hello world"
-
-
-Aether::CLI.new.call #start CLI
